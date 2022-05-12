@@ -1,0 +1,105 @@
+.front .name {
+  margin-left: 5%;
+  padding-top: 40px;
+  height: 150px;
+}
+
+.front .name .one {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.front .name .two {
+  font-size: 29px;
+  font-weight: 700;
+}
+
+.front .name .three {
+  font-size: 39px;
+  font-weight: 700;
+}
+
+.front .info {
+  width: 100%;
+  margin: auto;
+}
+
+.front .info .info_one {
+  display: block;
+}
+
+.front .info .info_one .content {
+  width: 90%;
+  height: 225px;
+  margin: auto;
+}
+
+.front .info .info_one .content .button_one {
+  width: 100px;
+  height: 20%;
+  font-size: 12px;
+}
+
+.front .info .info_one .content p {
+  padding-top: 3%;
+  font-size: 15px;
+}
+
+.front .info .info_two {
+  width: 90%;
+  height: 225px;
+  margin: auto;
+}
+
+.front .info .info_two .button_two {
+  width: 100px;
+  height: 20%;
+  margin-left: 5%;
+  margin-top: 5%;
+  font-size: 12px;
+}
+
+.front .info .info_two p {
+  width: 90%;
+  margin: auto;
+  margin-top: 3%;
+  padding-top: 3%;
+  font-size: 15px;
+}
+
+.news {
+  padding-bottom: 50px;
+}
+
+.news .head {
+  font-size: 30px;
+}
+
+.news .head .head_line {
+  width: 60%;
+}
+
+.news .fig_container {
+  margin-top: 50px;
+}
+
+.news .fig_container .fig {
+  width: 80%;
+  display: block;
+  margin: auto;
+  margin-bottom: 75px;
+}
+
+.news .fig_container .fig .inside {
+  margin-top: -25%;
+}
+
+.news .fig_container .fig .inside p {
+  padding: 10px;
+  font-size: 12px;
+}
+
+#down {
+  top: 0px;
+}
+/*# sourceMappingURL=small.css.map */

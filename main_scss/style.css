@@ -1,0 +1,240 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url(../Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.front {
+  width: 100%;
+  background-image: url(../image/fon10.jpg);
+  height: 1000px;
+}
+
+.front .check {
+  height: 70px;
+}
+
+.front .name {
+  margin-left: 15%;
+  padding-top: 50px;
+  height: 300px;
+  -webkit-backdrop-filter: 10px;
+          backdrop-filter: 10px;
+  position: relative;
+}
+
+.front .name span {
+  color: #c9c9c9;
+  background-color: #212020b6;
+  border-radius: 4px;
+}
+
+.front .name .one {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.front .name .two {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.front .name .three {
+  font-size: 80px;
+  font-weight: 700;
+}
+
+.front .info {
+  width: 70%;
+  margin: auto;
+}
+
+.front .info a {
+  text-decoration: none;
+  color: #c9c9c9;
+  -webkit-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+.front .info a:hover {
+  color: #eba8a8;
+  -webkit-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+.front .info .info_one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.front .info .info_one .content {
+  width: 49%;
+  height: 245px;
+  background-color: #212020;
+  border-radius: 9px;
+  opacity: 0.9;
+}
+
+.front .info .info_one .content .button_one {
+  background-color: #3b3f3d;
+  width: 125px;
+  height: 20%;
+  border-radius: 9px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 600;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 5%;
+  margin-top: 5%;
+  font-size: 16px;
+}
+
+.front .info .info_one .content p {
+  width: 90%;
+  margin: auto;
+  margin-top: 3%;
+  word-wrap: break-word;
+  color: #c9c9c9;
+  font-size: 17px;
+}
+
+.front .info .info_two {
+  width: 100%;
+  height: 150px;
+  margin-top: 15px;
+  background-color: #212020;
+  border-radius: 9px;
+  opacity: 0.9;
+}
+
+.front .info .info_two .button_two {
+  background-color: #3b3f3d;
+  width: 125px;
+  height: 35%;
+  border-radius: 9px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 2.5%;
+  margin-top: 3%;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.front .info .info_two p {
+  width: 95%;
+  margin: auto;
+  padding-top: 1%;
+  word-wrap: break-word;
+  color: #c9c9c9;
+  font-size: 17px;
+}
+
+.news {
+  padding-bottom: 100px;
+  width: 100%;
+}
+
+.news .head {
+  margin-top: 2%;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  color: #212020;
+}
+
+.news .head .head_line {
+  width: 22.5%;
+  margin-top: 0%;
+}
+
+.news .fig_container {
+  width: 80%;
+  margin: auto;
+}
+
+.news .fig_container .fig {
+  width: 35%;
+  display: inline-block;
+  margin: auto;
+  margin-left: 10%;
+  margin-bottom: 100px;
+  margin-top: 5%;
+}
+
+.news .fig_container .fig img {
+  border-radius: 9px;
+  width: 100%;
+  height: 100%;
+}
+
+.news .fig_container .fig .inside {
+  margin: auto;
+  background-color: #212020;
+  width: 80%;
+  margin-top: -15%;
+  position: relative;
+  opacity: 1;
+  border-radius: 9px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.news .fig_container .fig .inside .first {
+  width: 90%;
+  margin: auto;
+  word-wrap: break-word;
+  color: #c9c9c9;
+  font-size: 20px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.news .fig_container .fig .inside .second {
+  width: 90%;
+  margin: auto;
+  word-wrap: break-word;
+  color: #c9c9c9;
+  font-size: 17px;
+  text-align: center;
+}
+
+.news .fig_container .fig .inside p {
+  padding: 20px;
+}
+
+#down {
+  position: relative;
+  top: 8vw;
+}
+
+@media screen and (min-width: 1981px) and (max-width: 3000px) {
+  .news {
+    padding-bottom: 150px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

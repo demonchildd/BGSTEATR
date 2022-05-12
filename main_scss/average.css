@@ -1,0 +1,95 @@
+.front .name {
+  margin-left: 10%;
+  padding-top: 40px;
+  height: 150px;
+  position: relative;
+}
+
+.front .name .one {
+  font-size: 22px;
+}
+
+.front .name .two {
+  font-size: 32px;
+}
+
+.front .name .three {
+  font-size: 45px;
+}
+
+.front .info {
+  width: 80%;
+}
+
+.front .info .info_one {
+  display: block;
+}
+
+.front .info .info_one .content {
+  width: 100%;
+}
+
+.front .info .info_one .content .button_one {
+  width: 140px;
+  height: 20%;
+  margin-left: 5%;
+  margin-top: 5%;
+  font-size: 14px;
+}
+
+.front .info .info_one .content p {
+  padding-top: 3%;
+  font-size: 16px;
+}
+
+.front .info .info_two .button_two {
+  width: 140px;
+  height: 35%;
+  margin-left: 5%;
+  font-size: 14px;
+}
+
+.front .info .info_two p {
+  padding-top: 3%;
+  font-size: 16px;
+}
+
+.news {
+  padding-bottom: 50px;
+}
+
+.news .head .head_line {
+  width: 50%;
+}
+
+.news .fig_container {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.news .fig_container .fig {
+  width: 50%;
+  display: block;
+  margin: auto;
+  margin-bottom: 75px;
+}
+
+.news .fig_container .fig .inside {
+  margin-top: -20%;
+}
+
+.news .fig_container .fig .inside p {
+  padding: 15px;
+  font-size: 15px;
+}
+
+#down {
+  top: 0px;
+  left: 15vw;
+}
+
+#up {
+  position: relative;
+  right: 12vw;
+}
+/*# sourceMappingURL=average.css.map */

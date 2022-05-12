@@ -1,0 +1,411 @@
+$text-color: #c9c9c9;
+$text-color-hover: #eba8a8;
+$button: #3b3f3d;
+$back-color: #212020;
+$title: #21202063;
+
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.front {
+    background-image: url(../image/fon10.jpg);
+    background-attachment: fixed;
+    max-height: 7000px;
+    padding-bottom: 75px;
+
+    .check {
+        height: 120px;
+    }
+
+    .container {
+        width: 90%;
+        height: auto;
+        margin: auto;
+        padding: 2%;
+        height: auto;
+        background-color: $back-color;
+        opacity: 0.97;
+        border-radius: 9px;
+        color: $text-color;
+
+        .box {
+            width: 100%;
+            height: auto;
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: space-between;
+
+            .picture {
+                width: 39%;
+
+                img {
+                    width: 100%;
+
+                    object-fit: contain;
+                }
+            }
+
+            .info {
+                width: 60%;
+                display: block;
+                font-size: 19px;
+
+                .title_info {
+                    font-size: 26px;
+                    font-weight: 800;
+                    margin-bottom: 10px;
+                }
+
+                .comb {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    width: 275px;
+                    font-weight: 800;
+                    margin-bottom: 10px;
+                }
+
+                .genre {
+                    margin-bottom: 30px;
+                }
+
+                .other_info {
+                    font-size: 16px;
+                }
+            }
+        }
+
+        .center {
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-content: space-around;
+            width: 80%;
+
+            .div1 {
+                width: 50%;
+                margin-top: 25px;
+
+                .role {
+                    width: 100%;
+                    font-size: 26px;
+                    font-weight: 800;
+
+                }
+
+                .perform {
+                    width: 100%;
+                    margin-top: 30px;
+                    font-size: 19px;
+                    padding: 0;
+
+                    li {
+                        margin-bottom: 6px;
+                        list-style-type: none;
+                    }
+                }
+            }
+
+            .div2 {
+                width: 90%;
+                margin-top: 25px;
+
+                .date {
+                    width: 100%;
+                    font-size: 26px;
+                    font-weight: 800;
+                    text-align: center;
+                }
+
+                .date_pr {
+                    padding: 0;
+                    margin-top: 30px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    list-style-type: none;
+                    justify-content: center;
+                    font-size: 19px;
+                    font-weight: 700;
+
+                    li {
+                        margin-right: 25px;
+                    }
+                }
+
+                .buy {
+                    font-size: 19px;
+                    font-weight: 700;
+                    height: 75px;
+                    width: 100%;
+                    margin: auto;
+                    margin-top: 30px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 9px;
+                    background-color: $button;
+                }
+            }
+
+            .div3 {
+                width: 100%;
+                margin-top: 25px;
+
+                .foto {
+                    width: 100%;
+                    font-size: 26px;
+                    font-weight: 800;
+                    text-align: center;
+                }
+
+                .gallery {
+                    width: 100%;
+                    margin-top: 30px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    margin-bottom: 75px;
+
+                    img {
+                        margin: 10px;
+                        height: 150px;
+                        width: 150px;
+                        transition: 0.4s ease-in-out;
+                    }
+
+                    img:hover {
+                        transform: scale(2);
+                        position: relative;
+                        transition: 0.4s ease-in-out;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .front {
+        .container {
+            width: 90%;
+            padding: 10px;
+
+            .box {
+                display: block;
+
+                .picture {
+                    width: 100%;
+                    margin: auto;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+
+                .info {
+                    width: 100%;
+                    font-size: 17px;
+
+                    .title_info {
+                        font-size: 23px;
+                    }
+
+                    .comb {
+                        width: 250px;
+                    }
+
+                    .genre {
+                        margin-bottom: 20px;
+                    }
+
+                    .other_info {
+                        font-size: 15px;
+                    }
+                }
+            }
+
+            .center {
+                color: #c9c9c9;
+                width: 90%;
+
+                .div1 {
+                    width: 70%;
+
+                    .role {
+                        width: 100%;
+                        font-size: 23px;
+                        text-align: center;
+
+                    }
+
+                    .perform {
+                        width: 100%;
+                        margin-top: 20px;
+                        font-size: 17px;
+                        padding-left: 30px;
+
+                    }
+                }
+
+                .div2 {
+                    width: 100%;
+
+                    .date {
+                        width: 100%;
+                        font-size: 23px;
+                    }
+
+                    .date_pr {
+                        font-size: 17px;
+                        margin-top: 20px;
+
+                        li {
+                            margin-right: 25px;
+                        }
+                    }
+
+                    .buy {
+                        font-size: 17px;
+                        height: 70px;
+                        width: 300px;
+                        text-align: center;
+                    }
+                }
+
+                .div3 {
+                    width: 90%;
+
+                    .foto {
+                        font-size: 23px;
+                    }
+
+                    .gallery {
+                        margin-top: 30px;
+
+                        img {
+                            margin: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .front {
+        .container {
+            width: 90%;
+            padding: 10px;
+
+            .box {
+                display: block;
+
+                .picture {
+                    width: 100%;
+                    margin: auto;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+
+                .info {
+                    width: 100%;
+                    font-size: 17px;
+
+                    .title_info {
+                        font-size: 23px;
+                    }
+
+                    .comb {
+                        width: 250px;
+                    }
+
+                    .genre {
+                        margin-bottom: 20px;
+                    }
+
+                    .other_info {
+                        font-size: 15px;
+                    }
+                }
+            }
+
+            .center {
+                color: #c9c9c9;
+                width: 90%;
+
+                .div1 {
+                    width: 90%;
+
+                    .role {
+                        width: 100%;
+                        font-size: 21px;
+                        text-align: center;
+
+                    }
+
+                    .perform {
+                        width: 100%;
+                        margin-top: 20px;
+                        font-size: 16px;
+                        padding-left: 15px;
+
+                    }
+                }
+
+                .div2 {
+                    width: 100%;
+
+                    .date {
+                        width: 100%;
+                        font-size: 21px;
+                    }
+
+                    .date_pr {
+                        font-size: 15px;
+                        margin: 10px;
+
+                        li {
+                            margin-right: 25px;
+                        }
+                    }
+
+                    .buy {
+                        font-size: 15px;
+                        height: 70px;
+                        width: 240px;
+                        text-align: center;
+                    }
+                }
+
+                .div3 {
+                    width: 80%;
+
+                    .foto {
+                        font-size: 23px;
+                    }
+
+                    .gallery {
+                        margin-top: 30px;
+                        margin-bottom: 50px;
+
+                        img {
+                            margin: 3px;
+                            width: 90px;
+                            height: 90px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

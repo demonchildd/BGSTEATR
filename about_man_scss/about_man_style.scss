@@ -1,0 +1,307 @@
+//переменные
+$text-color: #c9c9c9;
+$text-color-hover: #eba8a8;
+$button: #3b3f3d;
+$back-color: #212020;
+$title: #21202063;
+
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.front {
+    background-image: url(../image/fon10.jpg);
+    width: 100%;
+    max-height: 7000px;
+    padding-bottom: 75px;
+    background-attachment: fixed;
+
+    .check {
+        height: 160px;
+    }
+
+    .container {
+        width: 90%;
+        margin: auto;
+        height: auto;
+        background-color: $back-color;
+        border-radius: 9px;
+        padding-top: 50px;
+        color: $text-color;
+
+        .box {
+            margin: auto;
+            width: 85%;
+            display: flex;
+            justify-content: space-between;
+            .picture {
+                width: 31%;
+
+                img {
+                    width: 100%;
+                    min-height: 450px;
+                    object-fit: contain;
+                }
+            }
+
+            .info {
+                width: 65%;
+                height: 100%;
+                .box_info {
+                    height: 150px;
+
+                    .name {
+                        font-size: 35px;
+                        font-weight: 800;
+                    }
+
+                    .post {
+                        font-size: 18px;
+                        font-weight: 800;
+                        margin-top: 20px;
+                    }
+                }
+
+                .other_info {
+                    font-size: 17px;
+                    padding: 0;
+                    list-style-type: none;
+
+                    li {
+                        margin-bottom: 6px;
+                    }
+
+                    span {
+                        font-weight: 800;
+                    }
+                }
+            }
+        }
+
+        .center {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: space-around;
+
+            .div1 {
+                width: 60%;
+
+                .role {
+                    width: 100%;
+                    text-align: center;
+                    font-size: 35px;
+                    font-weight: 800;
+
+                }
+
+                .perform {
+                    width: 100%;
+                    margin-top: 50px;
+                    font-size: 17px;
+
+                    li {
+                        margin-bottom: 6px;
+                    }
+                }
+            }
+
+            .div2 {
+                width: 80%;
+
+                .foto {
+                    width: 100%;
+                    font-size: 35px;
+                    font-weight: 800;
+                    text-align: center;
+                }
+
+                .gallery {
+                    width: 100%;
+                    margin-top: 50px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    margin-bottom: 75px;
+
+                    img {
+                        margin: 10px;
+                        height: 150px;
+                        width: 150px;
+                        transition: 0.4s ease-in-out;
+                    }
+
+                    img:hover {
+                        transform: scale(2);
+                        position: relative;
+                        transition: 0.4s ease-in-out;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .front {
+        .container {
+            width: 90%;
+            padding-top: 0px;
+
+            .box {
+                width: 90%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+
+                .picture {
+                    margin: auto;
+                    margin: 25px;
+                    width: 100%;
+
+                    img {
+                        width: 100%;
+                        height: auto;
+
+
+                    }
+                }
+
+                .info {
+                    width: 100%;
+                    height: auto;
+
+                    .box_info {
+                        height: 100px;
+
+                        .name {
+                            font-size: 25px;
+                        }
+
+                        .post {
+                            font-size: 15px;
+                        }
+                    }
+
+                    .other_info {
+                        font-size: 15px;
+                    }
+                }
+            }
+
+            .center {
+                .div1 {
+                    width: 80%;
+
+                    .role {
+                        font-size: 25px;
+                    }
+
+                    .perform {
+                        font-size: 15px;
+                        padding: 0;
+                        margin-top: 30px;
+                    }
+                }
+
+                .div2 {
+                    width: 80%;
+
+                    .foto {
+                        font-size: 25px;
+                    }
+
+                    .gallery {
+                        margin-top: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .front {
+        .container {
+            width: 95%;
+
+            padding-top: 0px;
+
+            .box {
+                width: 95%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+
+                .picture {
+                    margin: auto;
+                    margin: 15px;
+                    width: 90%;
+
+                    img {
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+
+                .info {
+                    width: 100%;
+                    height: auto;
+
+                    .box_info {
+                        height: 90px;
+
+                        .name {
+                            font-size: 20px;
+                        }
+
+                        .post {
+                            font-size: 13px;
+                        }
+                    }
+
+                    .other_info {
+                        font-size: 13px;
+                    }
+                }
+            }
+
+            .center {
+                .div1 {
+                    width: 85%;
+
+                    .role {
+                        font-size: 20px;
+
+                    }
+
+                    .perform {
+                        font-size: 13px;
+                        padding: 0;
+                        margin-top: 30px;
+                    }
+                }
+
+                .div2 {
+                    width: 80%;
+
+                    .foto {
+                        font-size: 25px;
+                    }
+
+                    .gallery {
+                        margin-top: 30px;
+                        margin-bottom: 50px;
+
+                        img {
+                            width: 100px;
+                            height: 100px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

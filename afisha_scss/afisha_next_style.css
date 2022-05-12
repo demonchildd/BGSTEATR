@@ -1,0 +1,389 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.front {
+  background-image: url(../image/fon10.jpg);
+  width: 100%;
+  max-height: 3000px;
+  background-attachment: fixed;
+  padding-bottom: 50px;
+}
+
+.front .check {
+  height: 100px;
+}
+
+.front .title {
+  height: 80px;
+  width: 400px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 9px;
+  font-size: 50px;
+  font-weight: 900;
+  color: #c9c9c9;
+  background-color: #21202063;
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+}
+
+.front .navigator {
+  margin: auto;
+  margin-top: 50px;
+  width: 85%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.front .navigator .name {
+  background-color: #212020;
+  height: 50px;
+  width: 45%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  opacity: 0.9;
+  border-radius: 9px;
+}
+
+.front .navigator .name .link1 {
+  font-size: 21px;
+  font-weight: 500;
+  color: #c9c9c9;
+  text-decoration: none;
+  -webkit-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+  -webkit-transition: font-size 0.3s ease-in-out;
+  transition: font-size 0.3s ease-in-out;
+}
+
+.front .navigator .name .link1:hover {
+  font-size: 23px;
+  text-decoration: none;
+  color: #eba8a8;
+  -webkit-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+  -webkit-transition: font-size 0.3s ease-in-out;
+  transition: font-size 0.3s ease-in-out;
+}
+
+.front .navigator .name .link2 {
+  font-weight: 500;
+  font-size: 23px;
+  text-decoration: none;
+  color: #eba8a8;
+}
+
+.front .box {
+  padding: 1.5%;
+  color: #c9c9c9;
+  margin: auto;
+  width: 90%;
+  height: auto;
+  background-color: #212020;
+  border-radius: 9px;
+  opacity: 0.9;
+}
+
+.front .box .container {
+  width: 100%;
+  height: 75px;
+  border-bottom: 2px solid #eba8a8;
+  border-top: 2px solid #eba8a8;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.front .box .container .date {
+  -ms-flex-preferred-size: 10%;
+      flex-basis: 10%;
+  height: 65px;
+  background-color: #eba8a8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #212020;
+  word-wrap: break-word;
+  font-weight: 800;
+}
+
+.front .box .container .executor {
+  font-size: 19px;
+  -ms-flex-preferred-size: 20%;
+      flex-basis: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  word-wrap: break-word;
+}
+
+.front .box .container .name {
+  font-size: 19px;
+  font-weight: 800;
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+  border-left: 1px solid #c9c9c9;
+  height: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  word-wrap: break-word;
+}
+
+.front .box .container .time {
+  -ms-flex-preferred-size: 15%;
+      flex-basis: 15%;
+  border-left: 1px solid #c9c9c9;
+  height: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  word-wrap: break-word;
+}
+
+.front .box .container .age {
+  -ms-flex-preferred-size: 5%;
+      flex-basis: 5%;
+  border-left: 1px solid #c9c9c9;
+  height: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  word-wrap: break-word;
+  font-weight: 800;
+}
+
+.front .box .container .genre {
+  -ms-flex-preferred-size: 20%;
+      flex-basis: 20%;
+  border-left: 1px solid #c9c9c9;
+  height: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  word-wrap: break-word;
+}
+
+.front .info {
+  font-size: 30px;
+  font-weight: 600;
+  height: 75px;
+  width: 88%;
+  margin: auto;
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 9px;
+  color: #c9c9c9;
+  background-color: #21202063;
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+  text-align: center;
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .front .title {
+    width: 300px;
+    font-size: 30px;
+    height: 70px;
+  }
+  .front .navigator .name a {
+    font-size: 18px;
+  }
+  .front .navigator .name a:hover {
+    font-size: 20px;
+  }
+  .front .box {
+    width: 95%;
+  }
+  .front .box .container {
+    width: 100%;
+    height: 85px;
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .front .box .container .date {
+    font-weight: 600;
+  }
+  .front .box .container .executor {
+    font-size: 15px;
+  }
+  .front .box .container .name {
+    font-size: 15px;
+    height: 85px;
+  }
+  .front .box .container .time {
+    height: 85px;
+  }
+  .front .box .container .age {
+    height: 85px;
+  }
+  .front .box .container .genre {
+    height: 85px;
+  }
+  .front .info {
+    font-size: 24px;
+    font-weight: 800;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .front .title {
+    width: 250px;
+    height: 60px;
+    font-size: 30px;
+  }
+  .front .navigator {
+    margin-top: 10px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 140px;
+  }
+  .front .navigator .name {
+    width: 250px;
+  }
+  .front .navigator .name a {
+    font-size: 17px;
+  }
+  .front .navigator .name a:hover {
+    font-size: 19px;
+  }
+  .front .box {
+    margin-top: 10px;
+    font-size: 13px;
+    width: 90%;
+  }
+  .front .box .container {
+    display: block;
+    height: auto;
+    margin-bottom: 2%;
+    font-size: 18px;
+    font-weight: 600;
+    border-bottom: 2px solid #c9c9c9;
+    width: 95%;
+    border-top: none;
+  }
+  .front .box .container .date {
+    height: 40px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .front .box .container .executor {
+    height: 40px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .front .box .container .name {
+    height: 40px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    border-top: 2px solid #c9c9c9;
+  }
+  .front .box .container .time {
+    height: 40px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    border-top: 2px solid #c9c9c9;
+  }
+  .front .box .container .age {
+    height: 40px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    border-top: 2px solid #c9c9c9;
+  }
+  .front .box .container .genre {
+    height: 40px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    border-top: 2px solid #c9c9c9;
+  }
+  .front .info {
+    font-size: 20px;
+    font-weight: 800;
+  }
+}
+/*# sourceMappingURL=afisha_next_style.css.map */

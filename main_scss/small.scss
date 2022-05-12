@@ -1,0 +1,110 @@
+/////////////////////////////////////////////////////////////////
+.front {
+    .name {
+        margin-left: 5%;
+        padding-top: 40px;
+        height: 150px;
+
+        .one {
+            font-size: 18px;
+            font-weight: 700;
+        }
+
+        .two {
+            font-size: 29px;
+            font-weight: 700;
+        }
+
+        .three {
+            font-size: 39px;
+            font-weight: 700;
+        }
+    }
+
+    .info {
+        width: 100%;
+        margin: auto;
+
+        .info_one {
+            display: block;
+
+            .content {
+                width: 90%;
+                height: 225px;
+                margin: auto;
+
+                .button_one {
+                    width: 100px;
+                    height: 20%;
+                    font-size: 12px;
+                }
+
+                p {
+                    padding-top: 3%;
+                    font-size: 15px;
+                }
+            }
+        }
+
+        .info_two {
+            width: 90%;
+            height: 225px;
+            margin: auto;
+
+            .button_two {
+                width: 100px;
+                height: 20%;
+                margin-left: 5%;
+                margin-top: 5%;
+                font-size: 12px;
+            }
+
+            p {
+                width: 90%;
+                margin: auto;
+                margin-top: 3%;
+                padding-top: 3%;
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+/////////////////////////////////////////
+.news {
+    padding-bottom: 50px;
+
+    .head {
+        font-size: 30px;
+
+        .head_line {
+            width: 60%;
+        }
+    }
+
+    .fig_container {
+        margin-top: 50px;
+
+        .fig {
+
+            width: 80%;
+            display: block;
+            margin: auto;
+            margin-bottom: 75px;
+
+            .inside {
+                margin-top: -25%;
+
+                p {
+                    padding: 10px;
+                    font-size: 12px;
+                }
+            }
+
+        }
+    }
+}
+
+#down {
+    top: 0px;
+}

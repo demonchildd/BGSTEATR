@@ -1,0 +1,102 @@
+/////////////////////////////////////////////////////////////////
+.front {
+    .name {
+        margin-left: 10%;
+        padding-top: 40px;
+        height: 150px;
+        position: relative;
+
+        .one {
+            font-size: 22px;
+        }
+
+        .two {
+            font-size: 32px;
+        }
+
+        .three {
+            font-size: 45px;
+        }
+    }
+
+    .info {
+        width: 80%;
+
+        .info_one {
+            display: block;
+
+            .content {
+                width: 100%;
+
+                .button_one {
+                    width: 140px;
+                    height: 20%;
+                    margin-left: 5%;
+                    margin-top: 5%;
+                    font-size: 14px;
+                }
+
+                p {
+                    padding-top: 3%;
+                    font-size: 16px;
+                }
+            }
+        }
+
+        .info_two {
+            .button_two {
+                width: 140px;
+                height: 35%;
+                margin-left: 5%;
+                font-size: 14px;
+            }
+
+            p {
+                padding-top: 3%;
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+/////////////////////////////////////////
+.news {
+    padding-bottom: 50px;
+
+    .head {
+        .head_line {
+            width: 50%;
+        }
+    }
+
+    .fig_container {
+        width: 100%;
+        margin-top: 50px;
+
+        .fig {
+            width: 50%;
+            display: block;
+            margin: auto;
+            margin-bottom: 75px;
+
+            .inside {
+                margin-top: -20%;
+
+                p {
+                    padding: 15px;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
+
+#down {
+    top: 0px;
+    left: 15vw;
+}
+
+#up {
+    position: relative;
+    right: 12vw;
+}

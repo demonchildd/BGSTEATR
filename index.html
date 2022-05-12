@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная страница</title>
+    <link rel="stylesheet" href="other_scss/header.css">
+    <link rel="stylesheet" href="main_scss/style.css">
+    <link rel="stylesheet" href="other_scss/normalize.css">
+    <link rel="stylesheet" href="other_scss/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,500;1,600;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        @import url(main_scss/average.css) (min-width: 481px) and (max-width: 768px);
+        @import url(main_scss/small.css) (max-width: 480px);
+    </style>
+</head>
+
+<body>
+    <!---HEADER-->
+    <header class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li><a href="index.html" class="link1">Главная</a></li>
+                <li><a href="theatre.html" class="link2">О театре</a></li>
+                <li><a href="afisha.html" class="link2">Афиша</a></li>
+                <li><a href="performances.html" class="link2">Спектакли</a></li>
+                <li><a href="troupe.html" class="link2">Труппа</a></li>
+                <li><a href="contacts.html" class="link2">Контакты</a></li>
+            </ul>
+            <div class="png">
+                <a href="https://vk.com/n0v1k0vvv" target="_blank"><img src="image/vk.png" alt="" class="png_link"></a>
+                <a href="https://web.telegram.org/k/" target="_blank"><img src="image/telegram.png" alt=""
+                        class="png_link"></a>
+                <a href="https://www.youtube.com" target="_blank"><img src="image/youtube.png" alt=""
+                        class="png_link"></a>
+                <a href="https://www.instagram.com/nov1kov.21/" target="_blank"><img src="image/instagram.png" alt=""
+                        class="png_link"></a>
+            </div>
+        </div>
+    </header>
+    <!---БЛОК ИНФОРМАЦИИ-->
+    <section class="front">
+        <div class="check"></div>
+        <div class="name">
+            <span class="one">Белорусский национальный</span><br>
+            <span class="two">Студенческий</span><br>
+            <span class="three">Театр</span><br>
+        </div>
+        <div class="info">
+            <div class="info_one">
+                <div class="content">
+                    <p>Начались репеции спектакля «Мёртвый, но не душе» по одноимённой пьесе Н. Песецкого.
+                        Режиссер-постановщик — Картузов Дмитрий.</p>
+                    <div class="button_one"><a href="news.html" class="button">Читать далее</a></div>
+                </div>
+                <div class="content">
+                    <p>В нашем театре начались репетиции спектакля «Я родился», где режиссёром-постановщиком является
+                        Заслуженный деятель искусств РБ Мацуев Григорий.</p>
+                    <div class="button_one"><a href="news.html" class="button">Читать далее</a></div>
+                </div>
+            </div>
+            <div class="info_two">
+                <p>Молодежный театр приглашает к сотрудничеству!</p>
+                <div class="button_two"><a href="news.html" class="button">Читать далее</a></div>
+            </div>
+        </div>
+    </section>
+    <!---БЛОК ИНФОРМАЦИИ-->
+    <section class="news">
+        <div class="head">
+            Новые спетакли
+            <hr noshade class="head_line">
+        </div>
+        <div class="fig_container">
+            <div class="fig" id="up">
+                <img src="image/perf_who.jpg" alt="">
+                <div class="inside">
+                    <p class="first">КТО Я?</p>
+                    <p class="second">Эрик Плюто</p>
+                </div>
+            </div>
+            <div class="fig" id="down">
+                <img src="image/perf_soul.jpg" alt="">
+                <div class="inside">
+                    <p class="first">ДУША ДЕВОЧКИ</p>
+                    <p class="second">Янина Ахарцова</p>
+                </div>
+            </div>
+            <div class="fig" id="up">
+                <img src="image/perf_genius.jpg" alt="">
+                <div class="inside">
+                    <p class="first">ЖИЗНЬ ГЕНИЯ</p>
+                    <p class="second">Алексей Адамович</p>
+                </div>
+            </div>
+            <div class="fig" id="down">
+                <img src="image/perf_power.jpg" alt="">
+                <div class="inside">
+                    <p class="first">СИЛЬНЫЙ ДУХОМ</p>
+                    <p class="second">Роман Зубарев</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---FOOTER-->
+    <footer>
+        <div class="name">BGSTEATR.BY</div>
+        <div class="flex_box">
+            <div class="box">Управление культуры Мингорисполкома:
+                <ul>
+                    <li>8-029 166-48-68</li>
+                    <li>ул.Свердлова, 21, корп. 2</li>
+                </ul>
+                <div class="png">
+                    <a href="https://vk.com/n0v1k0vvv" target="_blank"><img src="image/vk.png" alt=""
+                            class="png_link"></a>
+                    <a href="https://web.telegram.org/k/" target="_blank"><img src="image/telegram.png" alt=""
+                            class="png_link"></a>
+                    <a href="https://www.youtube.com" target="_blank"><img src="image/youtube.png" alt=""
+                            class="png_link"></a>
+                    <a href="https://www.instagram.com/nov1kov.21/" target="_blank"><img src="image/instagram.png"
+                            alt="" class="png_link"></a>
+                </div>
+            </div>
+            <div class="box">Справки и заказ билетов по телефону:
+                <ul>
+                    <li>8-029 166-48-68</li>
+                    <li>220034 г. Минск, ул. Бобруйская, 25</li>
+                </ul>
+                <div class="png">
+                    <a href="https://vk.com/n0v1k0vvv" target="_blank"><img src="image/vk.png" alt=""
+                            class="png_link"></a>
+                    <a href="https://web.telegram.org/k/" target="_blank"><img src="image/telegram.png" alt=""
+                            class="png_link"></a>
+                    <a href="https://www.youtube.com" target="_blank"><img src="image/youtube.png" alt=""
+                            class="png_link"></a>
+                    <a href="https://www.instagram.com/nov1kov.21/" target="_blank"><img src="image/instagram.png"
+                            alt="" class="png_link"></a>
+                </div>
+            </div>
+            <div class="box">Время работы:
+                <ul>
+                    <li>вторник — суббота: 10.00
+                        — 20.00</li>
+                    <li>воскресенье 10.00 — 19.00</li>
+                    <li>понедельник: выходной</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
